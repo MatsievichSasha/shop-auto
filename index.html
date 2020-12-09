@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/style.css">
+  <title>yandex auto shop</title>
+</head>
+
+<body>
+  <header>
+    <div class="logo">
+      <div class="logo__square"></div>
+      <div class="logo__triangle"></div>
+    </div>
+  </header>
+  <main>
+    <section class="slider">
+      <input type="radio" id="slide-input__next" name="controll">
+      <label class="slide-label__next" for="slide-input__next">
+        <span></span>
+      </label>
+
+      <input type="radio" id="slide-input__previously" name="controll">
+      <label class="slide-input__previously" for="slide-input__previously">
+        <span></span>
+      </label>
+
+      <div class="slider__overflow">
+        <ul class="slider__overflow__list">
+          <li class="slider__overflow__list__content">
+            <p class="slider__overflow__list__content__text">Хозяйственный мужчина ищет надежную красавицу для прогулок
+              по бездорожью. Полный привод обязателен</p>
+            <img class="slider__overflow__list__content__image" src="image/offroad_cars.png" alt="offroad_cars">
+          </li>
+        </ul>
+      </div>
+    </section>
+    <section class="video">
+      <input type="radio" id="video__input">
+      <label class="video__button" for="video__input">
+        <span class="video__button__arrow"></span>
+      </label>
+      <div class="video__banner">
+        <p>Яндекс.Авто за минуту</p>
+      </div>
+      <video class="video__video-content" src="#" poster="image/video-snapshot.png"></video>
+    </section>
+    <section class="find">
+      <h1>Простой способ выбрать автомобиль</h1>
+      <nav class="find__category">
+        <div class="find__category__how">
+          <div class="find__category__how__sprite find__category__how__sprite-catalogue"></div>
+          <h2 class="find__category__how_name">Каталог</h2>
+          <p>Самый большой каталог с&nbsp;описанием автомобилей от современных — до 20 лет назад</p>
+        </div>
+        <div class="find__category__how">
+          <div class="find__category__how__sprite find__category__how__sprite-intersections"></div>
+          <h2 class="find__category__how_name">Поиск</h2>
+          <p>Возможность искать по&nbsp;большему числу параметров, чем где бы то&nbsp;ни было</p>
+        </div>
+        <div class="find__category__how">
+          <div class="find__category__how__sprite find__category__how__sprite-magnifying"></div>
+          <h2 class="find__category__how_name">Выборки автобмобиля</h2>
+          <p>Выборки автомобилей в зависимости от ваших потребностей: «семейный», «для города», «для путешествий»</p>
+        </div>
+        <div class="find__category__how">
+          <div class="find__category__how__sprite find__category__how__sprite-search"></div>
+          <h2 class="find__category__how_name">Простой язык</h2>
+          <p>Возможность описания характеристик простым языком, понятным неискушенному пользователю</p>
+        </div>
+      </nav>
+    </section>
+    <section class="try">
+      <h1 class="try__header">Выбирайте. Находите. Заводите!</h1>
+      <button class="try__button" name="try-it">Попробовать!</button>
+    </section>
+  </main>
+</body>
+
+</html>
